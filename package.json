@@ -5,8 +5,8 @@
   "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify client/index.js > public/build/index.js && echo DONE!",
-    "serve": "npm run build && node server"
+    "build": "browserify client/index.js > public/build/index.js",
+    "start": "npm run build && node server"
   },
   "author": "Mark Dalgleish",
   "license": "MIT",
